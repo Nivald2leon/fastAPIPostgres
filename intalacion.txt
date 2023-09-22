@@ -1,0 +1,11 @@
+python -m venv venv   =>instalción del entorno virtual
+
+.\venv\Scripts\activate  =>para activar el entorno virtual
+
+creamos requirements.txt  con esto dentro:
+
+fastapi
+uvicorn
+
+pip install -r.\requirements.txt
+
