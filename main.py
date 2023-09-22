@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-import uvicorn  #para correr el servidor
+import uvicorn 
 from app.routers import user
 from app.db.database import Base,engine
 
