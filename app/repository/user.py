@@ -4,7 +4,7 @@ from app.db import  models
 from sqlalchemy.orm import Session
 
 
-#from app.routers import user
+
 
 
 def crear_usuario(usuario, db:Session):
